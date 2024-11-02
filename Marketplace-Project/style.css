@@ -1,0 +1,17 @@
+:root {
+    --white: #ffffff;
+    --darkGrey: #1f1f1f;
+    --primary: var(--darkGrey);
+    --secondary: var(--white);
+    --font-color: #000000;
+}
+
+.body {
+    background-color: var(--primary);
+}
+
+.darkMode {
+}
+
+.lightMode {
+}
