@@ -1,13 +1,41 @@
 :root {
     --white: #ffffff;
-    --darkGrey: #1f1f1f;
-    --primary: var(--darkGrey);
-    --secondary: var(--white);
+    --darkerGrey: #1e2124;
+    --darkGrey: #282b30;
+    --lightGrey: #36393e;
+    --lighterGrey: #424549;
+    --primary: var(--darkerGrey);
+    --secondary: var(--darkGrey);
+    --tertiary: var(--lightGrey);
     --font-color: #000000;
 }
 
 .body {
     background-color: var(--primary);
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+.header a {
+    color: var(--primary);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 25px;
+    border-radius: 20px;
+}
+
+.header a:hover {
+    background-color:;
+}
+
+.cardcontainer {
+    display: flexbox;
 }
 
 .darkMode {
