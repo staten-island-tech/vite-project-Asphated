@@ -31,15 +31,28 @@
 }
 
 .header a:hover {
-    background-color:;
+    background-color: #ddd;
 }
 
 .cardcontainer {
-    display: flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: var(--lighterGrey);
 }
 
-.darkMode {
-}
-
-.lightMode {
+.card {
+    height: 100px;
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    background-color: var(--lightGrey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 1rem;
+    text-align: center;
 }
