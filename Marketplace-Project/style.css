@@ -10,49 +10,87 @@
     --font-color: #000000;
 }
 
-.body {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
     background-color: var(--primary);
 }
 
-.header {
-    overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
-}
-
-.header a {
-    color: var(--primary);
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 1rem;
-    line-height: 25px;
-    border-radius: 20px;
-}
-
-.header a:hover {
-    background-color: #ddd;
-}
-
-.cardcontainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+header {
+    width: 100%;
+    background-color: var(--darkerGrey);
     padding: 20px;
-    background-color: var(--lighterGrey);
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--lightGrey);
+}
+
+nav img.logo {
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--secondary);
 }
 
 .card {
-    height: 100px;
-    width: 200px;
-    border: 2px solid blue;
-    border-radius: 25px;
-    background-color: var(--lightGrey);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white);
-    font-size: 1rem;
+    background-color: var(--tertiary);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 16px;
     text-align: center;
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.card p {
+    font-size: 1em;
+    color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
