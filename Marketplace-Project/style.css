@@ -127,6 +127,14 @@ nav img.logo {
         box-shadow 0.3s;
 }
 
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
 @keyframes slideUp {
     to {
         transform: translateY(0);
