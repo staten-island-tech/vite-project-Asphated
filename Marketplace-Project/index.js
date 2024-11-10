@@ -340,6 +340,7 @@ function filterComputers() {
   const selectedCPU = DOMselectors.cpu.value;
   const selectedRAM = DOMselectors.ram.value;
   const selectedGPU = DOMselectors.gpu.value;
+
   const filteredComputers = computers.filter((computer) => {
     const priceMatch = computer.price <= maxPrice;
     const cpuMatch =
@@ -351,8 +352,12 @@ function filterComputers() {
 
     return priceMatch && cpuMatch && ramMatch && gpuMatch;
   });
-
-  addcardHTML(filteredComputers);
+  DOMselectors.container.innerHTML = "";
+  if (filteredComputers.length === 0) {
+    DOMselectors.container.innerHTML = "<p>No computers :(</p>";
+  } else {
+    addcardHTML(filteredComputers);
+  }
 }
 
 document.querySelector("#mode-toggle").addEventListener("click", function () {
