@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Coffee Beans</title>
+        <title>PC Homestore</title>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
+    <body class="light">
         <header>
             <nav>
                 <ul>
@@ -15,34 +15,54 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <img src="coffee.png" alt="Coffee Beans Logo" class="logo" />
+                <img src="PCLogo.png" alt="Logo" class="logo" />
+                <div class="filter-container">
+                    <select id="price-filter">
+                        <option value="">Max Price</option>
+                        <option value="500">$500</option>
+                        <option value="1000">$1000</option>
+                        <option value="1500">$1500</option>
+                        <option value="2000">$2000</option>
+                    </select>
+
+                    <select id="cpu-filter">
+                        <option value="">CPU</option>
+                        <option value="Intel i3">Intel i3</option>
+                        <option value="AMD Ryzen 3">AMD Ryzen 3</option>
+                        <option value="Intel i5">Intel i5</option>
+                        <!-- Add more CPU options as needed -->
+                    </select>
+
+                    <select id="ram-filter">
+                        <option value="">RAM</option>
+                        <option value="8GB">8GB</option>
+                        <option value="16GB">16GB</option>
+                        <option value="32GB">32GB</option>
+                    </select>
+
+                    <select id="gpu-filter">
+                        <option value="">GPU</option>
+                        <option value="Integrated">Integrated</option>
+                        <option value="GTX 1050">GTX 1050</option>
+                        <option value="RTX 3060">RTX 3060</option>
+                    </select>
+
+                    <button id="apply-filters">Apply Filters</button>
+                </div>
+                <button id="mode-toggle">
+                    <img
+                        id="mode-icon"
+                        src="lightmode.png"
+                        alt="Toggle Mode"
+                        width="30"
+                        height="30"
+                    />
+                </button>
             </nav>
         </header>
 
-        <div class="card-container">
-            <!-- Card 1 -->
-            <div class="card">
-                <h2>Budget Desktop PC</h2>
-                <p>Price: $400</p>
-                <p>
-                    Entry-level Intel i3 CPU, 8GB RAM, 256GB SSD. Ideal for web
-                    browsing, light office tasks, and media streaming.
-                </p>
-            </div>
+        <div class="card-container"></div>
 
-            <!-- Card 2 -->
-            <div class="card">
-                <h2>Compact Office PC</h2>
-                <p>Price: $450</p>
-                <p>
-                    AMD Athlon processor, 8GB RAM, 500GB HDD. Small form factor,
-                    perfect for simple productivity tasks.
-                </p>
-            </div>
-
-            <!-- Add more cards here for each PC -->
-        </div>
-
-        <script type="module" src="/main.js"></script>
+        <script type="module" src="/index.js"></script>
     </body>
 </html>

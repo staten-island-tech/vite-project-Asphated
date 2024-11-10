@@ -1,24 +1,26 @@
 :root {
-    --white: #ffffff;
+    --lighterwhite: #fafafa;
+    --white: #e4e5f1;
+    --darkerwhite: #d2d3db;
     --darkerGrey: #1e2124;
     --darkGrey: #282b30;
-    --lightGrey: #36393e;
     --lighterGrey: #424549;
     --primary: var(--darkerGrey);
     --secondary: var(--darkGrey);
-    --tertiary: var(--lightGrey);
-    --font-color: #000000;
+    --tertiary: var(--lighterGrey);
+    --font-color: var(--white);
 }
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: var(--primary);
+    color: var(--font-color);
 }
 
 header {
     width: 100%;
-    background-color: var(--darkerGrey);
+    background-color: var(--primary);
     padding: 20px;
     box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
@@ -42,7 +44,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: var(--font-color);
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -56,6 +58,21 @@ nav img.logo {
     margin-left: 20px;
     width: 100px;
     height: auto;
+    color: var(--font-color);
+}
+
+.light {
+    --primary: var(--lighterwhite);
+    --secondary: var(--white);
+    --tertiary: var(--lighterwhite);
+    --font-color: var(--darkGrey);
+}
+
+.dark {
+    --primary: var(--darkerGrey);
+    --secondary: var(--darkGrey);
+    --tertiary: var(--lighterGrey);
+    --font-color: var(--white);
 }
 
 .card-container {
@@ -82,15 +99,73 @@ nav img.logo {
 
 .card h2 {
     font-size: 1.2em;
-    color: #fff;
+    color: var(--font-color);
 }
 
 .card p {
     font-size: 1em;
-    color: #fff;
+    color: var(--font-color);
 }
 
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    width: 100%; /* Make sure the container takes the full width */
+}
+
+select,
+button {
+    flex: 1;
+    min-width: 100px; /* Set a minimum width to prevent items from becoming too small */
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--primary);
+    color: var(--font-color);
+    border: none;
+}
+
+button:hover {
+    background-color: var(--secondary);
+}
+
+.mode-toggle {
+    color: var(--font-color);
+}
+
+@media (max-width: 768px) {
+    .filter-container {
+        gap: 5px;
+    }
+
+    select,
+    button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-container {
+        flex-direction: column;
+        align-items: stretch;
+
+    select,
+    button {
+        width: 100%;
+    }
 }
