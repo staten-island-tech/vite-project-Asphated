@@ -21,7 +21,7 @@ function createcardHTML(computer) {
         <p>RAM: ${computer.ram}</p>
         <p>Storage: ${computer.storage}</p>
         <p>GPU: ${computer.gpu}</p>
-        <img src="PC.jpg" alt="Placeholder PC" />
+        <img src="${computer.image}" alt="Placeholder PC" />
       </div>
     `;
 }

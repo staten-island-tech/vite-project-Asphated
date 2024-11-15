@@ -6,6 +6,8 @@ const computers = [
     ram: "8GB",
     storage: "256GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/757/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description:
       "An entry-level desktop ideal for web browsing, light office tasks, and media streaming.",
   },
@@ -16,6 +18,8 @@ const computers = [
     ram: "8GB",
     storage: "500GB HDD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/038/849/048/non_2x/3d-rendered-gaming-pc-free-png.png",
     description:
       "A small, budget-friendly desktop for basic productivity tasks.",
   },
@@ -26,6 +30,8 @@ const computers = [
     ram: "8GB",
     storage: "1TB HDD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/752/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "Designed for multimedia consumption, this PC is perfect for streaming and light work.",
   },
@@ -36,6 +42,8 @@ const computers = [
     ram: "8GB",
     storage: "512GB SSD",
     gpu: "GTX 1050",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/792/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "Good for casual gaming and everyday tasks with basic graphics capabilities.",
   },
@@ -46,6 +54,8 @@ const computers = [
     ram: "8GB",
     storage: "256GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/762/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "A portable laptop suited for schoolwork and light productivity tasks.",
   },
@@ -56,6 +66,8 @@ const computers = [
     ram: "16GB",
     storage: "512GB SSD",
     gpu: "GTX 1650",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/736/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "A capable workstation for photo editing and creative applications.",
   },
@@ -66,6 +78,8 @@ const computers = [
     ram: "8GB",
     storage: "1TB HDD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/040/525/356/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "Compact all-in-one design for office use, great for space-saving setups.",
   },
@@ -76,6 +90,8 @@ const computers = [
     ram: "16GB",
     storage: "512GB SSD",
     gpu: "GTX 1660 Ti",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/788/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description:
       "A solid gaming laptop with decent performance for gaming on the go.",
   },
@@ -86,6 +102,8 @@ const computers = [
     ram: "16GB",
     storage: "512GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/733/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description: "Reliable desktop for multitasking and business applications.",
   },
   {
@@ -95,6 +113,8 @@ const computers = [
     ram: "16GB",
     storage: "1TB SSD",
     gpu: "RTX 2060",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/040/525/361/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "Capable of VR gaming and high-performance tasks, ideal for gamers.",
   },
@@ -105,6 +125,8 @@ const computers = [
     ram: "16GB",
     storage: "1TB HDD, 256GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/047/246/721/non_2x/pc-gaming-3d-illustration-png.png",
     description:
       "A robust home office workstation built for remote work and multitasking.",
   },
@@ -115,6 +137,8 @@ const computers = [
     ram: "16GB",
     storage: "512GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/795/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description: "Lightweight and sleek, perfect for professionals on the go.",
   },
   {
@@ -124,6 +148,8 @@ const computers = [
     ram: "16GB",
     storage: "1TB SSD",
     gpu: "RTX 3060",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/051/964/602/non_2x/modern-pc-isolate-on-transparency-background-png.png",
     description:
       "High-end gaming desktop with smooth performance for AAA games.",
   },
@@ -134,6 +160,8 @@ const computers = [
     ram: "32GB",
     storage: "1TB SSD",
     gpu: "RTX 3070",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/384/219/non_2x/a-computer-case-with-purple-lights-on-it-on-transparent-background-png.png",
     description:
       "Designed for video editing and graphic design with powerful processing and GPU.",
   },
@@ -144,6 +172,8 @@ const computers = [
     ram: "16GB",
     storage: "1TB SSD",
     gpu: "RTX 3060",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/051/964/602/non_2x/modern-pc-isolate-on-transparency-background-png.png",
     description: "Versatile laptop for both gaming and productivity.",
   },
   {
@@ -153,6 +183,8 @@ const computers = [
     ram: "32GB",
     storage: "512GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/757/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description:
       "Optimized for coding and multitasking, perfect for developers.",
   },
@@ -163,6 +195,8 @@ const computers = [
     ram: "32GB",
     storage: "2TB SSD",
     gpu: "RTX 3080",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/788/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description: "A powerhouse for 4K gaming and high-demand tasks.",
   },
   {
@@ -172,6 +206,8 @@ const computers = [
     ram: "64GB",
     storage: "2TB SSD",
     gpu: "Quadro",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/736/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description: "Built for CAD, 3D modeling, and intensive applications.",
   },
   {
@@ -181,6 +217,8 @@ const computers = [
     ram: "64GB",
     storage: "2TB SSD",
     gpu: "RTX 3090",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/040/525/356/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "High-performance setup for AI and machine learning applications.",
   },
@@ -191,6 +229,8 @@ const computers = [
     ram: "128GB",
     storage: "4TB SSD",
     gpu: "Dual RTX 3090",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/051/964/602/non_2x/modern-pc-isolate-on-transparency-background-png.png",
     description:
       "Top-tier gaming and rendering setup for the ultimate performance.",
   },
@@ -201,6 +241,8 @@ const computers = [
     ram: "4GB",
     storage: "128GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/736/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description: "Basic desktop for web browsing and simple office tasks.",
   },
   {
@@ -210,6 +252,8 @@ const computers = [
     ram: "8GB",
     storage: "256GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/757/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description:
       "Portable and efficient for schoolwork and everyday productivity.",
   },
@@ -220,6 +264,8 @@ const computers = [
     ram: "64GB",
     storage: "2TB SSD",
     gpu: "RTX 3080 Ti",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/752/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description: "Ideal for 4K video editing and heavy media projects.",
   },
   {
@@ -229,6 +275,8 @@ const computers = [
     ram: "4GB",
     storage: "64GB eMMC",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/040/525/356/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description:
       "Lightweight and affordable Chromebook for web browsing and online classes.",
   },
@@ -239,6 +287,8 @@ const computers = [
     ram: "8GB",
     storage: "500GB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/051/964/602/non_2x/modern-pc-isolate-on-transparency-background-png.png",
     description: "Compact design, great for a home office setup.",
   },
   {
@@ -248,6 +298,8 @@ const computers = [
     ram: "16GB",
     storage: "256GB SSD",
     gpu: "GTX 1650",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/042/169/752/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description: "A budget-friendly gaming PC for casual gamers.",
   },
   {
@@ -257,6 +309,8 @@ const computers = [
     ram: "16GB",
     storage: "1TB SSD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/788/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description:
       "A sleek and professional laptop for business tasks, travel-friendly.",
   },
@@ -267,6 +321,8 @@ const computers = [
     ram: "16GB",
     storage: "1TB HDD",
     gpu: "Integrated",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/051/964/602/non_2x/modern-pc-isolate-on-transparency-background-png.png",
     description:
       "A space-saving all-in-one PC, perfect for office environments.",
   },
@@ -277,6 +333,8 @@ const computers = [
     ram: "32GB",
     storage: "1TB SSD",
     gpu: "RTX 3060",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/048/412/788/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png",
     description:
       "A versatile high-performance laptop for multitasking and gaming.",
   },
@@ -287,6 +345,8 @@ const computers = [
     ram: "64GB",
     storage: "2TB SSD",
     gpu: "RTX 3090",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/051/964/602/non_2x/modern-pc-isolate-on-transparency-background-png.png",
     description: "Ideal for VR and immersive simulation experiences.",
   },
   {
@@ -296,9 +356,10 @@ const computers = [
     ram: "64GB",
     storage: "1TB SSD",
     gpu: "RTX 3080 Ti",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/040/525/356/non_2x/ai-generated-3d-rendering-of-a-gaming-pc-on-transparent-background-ai-generated-png.png",
     description: "Powerful graphics setup for rendering and design projects.",
   },
-  // Continue adding up to 80 computers as needed with descriptions.
 ];
 
 export { computers };
